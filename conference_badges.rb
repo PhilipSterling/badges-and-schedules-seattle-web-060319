@@ -10,3 +10,7 @@ def batch_badge_creator(array)
   end
   return returnarray
 end
+def assign_rooms(array)
+  returnarray = []
+  array.each_with_index
+end

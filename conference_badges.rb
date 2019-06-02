@@ -16,4 +16,5 @@ def assign_rooms(array)
   returnarray.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
     
   }
+  return returnarray
 end

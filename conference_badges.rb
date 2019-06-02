@@ -18,3 +18,8 @@ def assign_rooms(array)
   }
   return returnarray
 end
+def printer(array, array2)
+  array.each do |x| 
+    puts x
+  end
+end

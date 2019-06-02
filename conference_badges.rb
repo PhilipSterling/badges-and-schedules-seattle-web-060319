@@ -12,5 +12,6 @@ def batch_badge_creator(array)
 end
 def assign_rooms(array)
   returnarray = []
-  array.each_with_index { |val,index| puts "index: #{index} for #{val}" if val < 30}
+  array.each_with_index { |name,index| puts "index: #{index} for #{val}"
+  "Hello, _____! You'll be assigned to room _____!"}
 end

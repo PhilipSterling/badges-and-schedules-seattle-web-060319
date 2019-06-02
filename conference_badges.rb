@@ -18,9 +18,9 @@ def assign_rooms(array)
   }
   return returnarray
 end
-def printer()
-  array = batch_badge_creator
-  array2 = assign_rooms
+def printer(attendees)
+  array = batch_badge_creator(attendees)
+  array2 = assign_rooms(attendees)
   array.each do |x| 
     puts x
   end
